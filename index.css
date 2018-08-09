@@ -1,0 +1,42 @@
+@import url('base.css');
+.box{
+    width: 1226px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box .con{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 30px 20px;
+    overflow: hidden;
+    background-color: coral;
+}
+.con:hover{
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0,.1);
+    background-color: #e75050;
+    
+}
+.con .text{
+    width: 300px;
+    height: 50px;
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+}
+.con:hover .text{
+    color: #fff;
+}
+.con a{
+    display: block;
+    width: 300px;
+    height: 450px;
+    
+}
+.con a:hover{
+    transform: scale(1.05);
+    
+}
